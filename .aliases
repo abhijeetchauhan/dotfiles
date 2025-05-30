@@ -1,0 +1,20 @@
+## Colorize the ls output ##
+alias ls='ls --color=auto'
+
+## Use a long listing format ##
+alias ll='ls -la'
+
+## Show hidden files ##
+alias l.='ls -d .* --color=auto'
+
+# Docker compose alias
+alias dco='docker compose'          # Base alias  
+alias dcu='docker compose up'      # Start containers  
+alias dcd='docker compose down'    # Stop and remove containers  
+alias dcr='docker compose restart' # Restart services  
+alias dcl='docker compose logs'    # View logs  
+alias dce='docker compose exec'    # Run a command inside a container  
+alias dcb='docker compose build'   # Build images  
+alias dcp='docker compose ps'      # Show running containers  
+alias dck='docker compose kill'    # Kill containers  
+alias dcrm='docker compose rm'     # Remove stopped containers  
